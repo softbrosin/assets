@@ -10,5 +10,6 @@ const festMsg = `<style>
 <div class="festival">
 <h1>Happy Divali</h1>
 </div>`;
-
-bodyTag.insertAdjacentHTML('beforeend',festMsg);
+const dummyDiv = document.createElement('div');
+dummyDiv.innerHTML = festMsg;
+bodyTag.prepend(dummyDiv);
