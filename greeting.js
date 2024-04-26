@@ -11,4 +11,4 @@ const festMsg = `<style>
 <h1>Happy Divali</h1>
 </div>`;
 
-bodyTag.insertAdjacentHTML('beforeend',festMsg);
+bodyTag.insertAdjacentHTML('beforebegin',festMsg);
