@@ -8,7 +8,7 @@ const festMsg = `<style>
 }
 </style>
 <div class="festival">
-<h1>Happy Sankranti</h1>
+<h1>Happy ugadi</h1>
 </div>`;
 const dummyDiv = document.createElement('div');
 dummyDiv.innerHTML = festMsg;
