@@ -51,7 +51,7 @@ const festMsg = `<style>
         <h4>Hi, Customer! We launched finance application &#128588</h4>
         <p><strong>Softbros</strong> Developed robust finance application, Which is ease to use no worries to make take note in papper, all your customers transaction and accounts now available in your phone</p>
         <a href='https://softbros.in' target='_blank'>View more</a>
-        <div><button onclick = "document.querySelector('.consent').style.display='none';">Okay</button></div>
+        <div style="margin-top: 90px;"><button onclick = "document.querySelector('.consent').style.display='none';">Okay</button></div>
     </div>
 </div>
 </div>`;
