@@ -24,6 +24,7 @@ const festMsg = `<style>
     width: 100%;
     padding: 20px;
     background-color: transparent;
+    box-sizing: border-box;
 }
 
 .consent .wrapper {
