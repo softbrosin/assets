@@ -1,4 +1,7 @@
-const bodyTag = document.querySelector('body');
+function showCookie() {
+            const bodyTag = document.querySelector('body');
+
+document.cookie = "username=John Doe";
 
 const festMsg = `<style>
 .festival h1 {
@@ -17,12 +20,24 @@ const festMsg = `<style>
     background-color: rgba(70, 70, 70, 0.329);
 }
 
+.consent .content {
+    width: 100%;
+    padding: 20px;
+    background-color: transparent;
+}
+
 .consent .wrapper {
     padding: 20px;
     width: 70%;
     margin: auto;
-    top: 40px;
+    position: relative;
+    top: 60px;
+    border-radius: 20px;
     background-color: white;
+}
+
+.consent img {
+    width: 40px;
 }
 
 .consent h4 {
@@ -32,11 +47,15 @@ const festMsg = `<style>
 <div class="consent">
 <div class="wrapper">
     <div class="content">
+        <img src = '../static/background/brand.jpg' alt = 'Softbros logo'>
         <h4>Title</h4>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto fugit est atque placeat? Animi, mollitia consequatur? Quae suscipit facilis quam hic, perspiciatis iure dolorum, laudantium adipisci quaerat fugit consequatur delectus.</p>
+        <button onclick = "document.querySelector('.consent').style.display='none';">Okay</button>
     </div>
 </div>
 </div>`;
 const dummyDiv = document.createElement('div');
 dummyDiv.innerHTML = festMsg;
 bodyTag.prepend(dummyDiv);
+        }
+        showCookie()
