@@ -50,6 +50,7 @@ const festMsg = `<style>
         <img src = '../static/background/brand.jpg' alt = 'Softbros logo'>
         <h4>Hi, Customer! We launched finance application &#128588</h4>
         <p><strong>Softbros</softbros> Developed robust finance application, Which is ease to use no worries to make take note in papper, all your customers transaction and accounts now available in your phone</p>
+        <a href='https://softbros.in'>View more</a>
         <button onclick = "document.querySelector('.consent').style.display='none';">Okay</button>
     </div>
 </div>
