@@ -60,4 +60,4 @@ const dummyDiv = document.createElement('div');
 dummyDiv.innerHTML = festMsg;
 bodyTag.prepend(dummyDiv);
         }
-        showCookie()
+        // showCookie()
