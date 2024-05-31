@@ -53,7 +53,7 @@
             <div class="container">
                 <div class="wrap">
                     <!-- <img src="https://raw.githubusercontent.com/softbrosin/assets/main/assets/images/shutterstock_648907024.jpg" alt="Information image"> -->
-                    <img src="https://study.com/cimages/multimages/16/burgerad15179945781952220614.png"
+                    <img src="https://i.ytimg.com/vi/dM8JGiH0P7U/maxresdefault.jpg"
                         alt="Information image">
                     <button onclick="document.querySelector('.advBlock').classList.remove('active')">Okay</button>
                 </div>
@@ -63,7 +63,7 @@
 
 
             function setMyCookie() {
-                document.cookie = 'advSoftbros=ok;expires=Fri, 02 June 2024 22:40:00 UTC'; // IST-5:30 24hr F utctime.net
+                document.cookie = 'advSoftbro=ok;expires=Fri, 02 June 2024 22:40:00 UTC'; // IST-5:30 24hr F utctime.net
                 // alert('set')
             }
 
@@ -87,7 +87,7 @@
 
             }
 
-            if (!document.cookie.includes('advSoftbros')) {
+            if (!document.cookie.includes('advSoftbro')) {
                 document.body.insertAdjacentHTML('beforeEnd', advContent)
                 cookieProceed();
 
