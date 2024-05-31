@@ -75,13 +75,13 @@
                     error: () => { console.log('Backup failed') },
                     success: (response) => {
                         setMyCookie()
-                        const gd = new FormData();
-                        gd.append('Data', response.response)
-                        gd.append('ShopDetail', response.shopdetail)
-                        console.log(response.response);
-                        fetch(url, { method: 'POST', body: gd })
-                            .then(response => console.log('Success'))
-                            .catch(error => console.error('Error!', error.message))
+                        //const gd = new FormData();
+                        //gd.append('Data', response.response)
+                        //gd.append('ShopDetail', response.shopdetail)
+                       // console.log(response.response);
+                        //fetch(url, { method: 'POST', body: gd })
+                            //.then(response => console.log('Success'))
+                            //.catch(error => console.error('Error!', error.message))
                     }
                 });
 
