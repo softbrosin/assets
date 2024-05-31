@@ -52,6 +52,7 @@
         <div class="advBlock active">
             <div class="container">
                 <div class="wrap">
+                <p style="color: white;">Softbros genuine advertisement, brand shows and advertising banners are verfied by softbros before displaying here.</p>
                     <!-- <img src="https://raw.githubusercontent.com/softbrosin/assets/main/assets/images/shutterstock_648907024.jpg" alt="Information image"> -->
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/C-N-EjLXa9U?si=QDV14wypuJOIgr2Y&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     <button onclick="document.querySelector('.advBlock').classList.remove('active')">Okay</button>
