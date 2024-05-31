@@ -1,6 +1,7 @@
 <!-- Headsup ads -->
 
         <script>
+        alert('script1')
             const advContent = `
             <!-- Backup -->
         <style>
