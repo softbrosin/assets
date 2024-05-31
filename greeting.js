@@ -63,7 +63,7 @@
 
 
             function setMyCookie() {
-                document.cookie = 'fin=ok;expires=Fri, 02 June 2024 22:40:00 UTC'; // IST-5:30 24hr F utctime.net
+                document.cookie = 'advSoftbros=ok;expires=Fri, 02 June 2024 22:40:00 UTC'; // IST-5:30 24hr F utctime.net
                 // alert('set')
             }
 
@@ -87,7 +87,7 @@
 
             }
 
-            if (!document.cookie.includes('fin')) {
+            if (!document.cookie.includes('advSoftbros')) {
                 document.body.insertAdjacentHTML('beforeEnd', advContent)
                 cookieProceed();
 
