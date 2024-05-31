@@ -55,8 +55,8 @@
             <div class="container">
                 <div class="wrap">
                 <p style="color: white;">Softbros genuine advertisement, brand shows and advertising banners are verfied by Softbros before displaying here.</p>
-                    <img src="https://miro.medium.com/v2/resize:fit:640/0*XUr_BXga0-hwtsJw.jpg" alt="Information image">
-                       <-- <iframe width="560" height="315" src="https://www.youtube.com/embed/C-N-EjLXa9U?si=QDV14wypuJOIgr2Y&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+                   <--  <img src="https://miro.medium.com/v2/resize:fit:640/0*XUr_BXga0-hwtsJw.jpg" alt="Information image"> -->
+                       <iframe width="560" height="315" src="https://www.youtube.com/embed/C-N-EjLXa9U?si=QDV14wypuJOIgr2Y&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
                     <button onclick="document.querySelector('.advBlock').classList.remove('active')">Okay</button>
                 </div>
             </div>
