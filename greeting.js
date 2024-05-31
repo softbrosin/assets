@@ -40,6 +40,8 @@
                 display: flex;
                 flex-direction: column;
                 gap: 40px;
+                justify-content: center;
+                align-items: center;
             }
 
             .advBlock .container button {
