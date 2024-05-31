@@ -53,7 +53,7 @@
             <div class="container">
                 <div class="wrap">
                     <!-- <img src="https://raw.githubusercontent.com/softbrosin/assets/main/assets/images/shutterstock_648907024.jpg" alt="Information image"> -->
-                    <img src="https://i.ytimg.com/vi/dM8JGiH0P7U/maxresdefault.jpg"
+                    <img src="https://www.muthootfinance.com/sites/default/files/inline-images/Jno966_26_08_2020-%20MF%20Corona%20Kavach%20Gold%20Loan-CSK_Sipper_Banner%204%20x%202%20English-01.jpg"
                         alt="Information image">
                     <button onclick="document.querySelector('.advBlock').classList.remove('active')">Okay</button>
                 </div>
