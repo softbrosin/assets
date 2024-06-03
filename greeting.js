@@ -55,7 +55,7 @@
             <div class="container">
                 <div class="wrap">
                 <p style="color: white;">Softbros genuine advertisement, brand shows and advertising banners are verfied by Softbros before displaying here.</p>
-                       <iframe width="560" height="315" src="https://www.youtube.com/embed/C-N-EjLXa9U?si=QDV14wypuJOIgr2Y&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+                       <iframe width="560" height="315" src="https://www.youtube.com/embed/-FP_Nnb0a_k?si=Wlupp7zOvtNqIgD4&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
                     <button onclick="document.querySelector('.advBlock').classList.remove('active')">Okay</button>
                 </div>
             </div>
