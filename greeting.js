@@ -39,9 +39,12 @@
             .advBlock .container .wrap {
                 display: flex;
                 flex-direction: column;
-                gap: 40px;
                 justify-content: center;
                 align-items: center;
+            }
+
+            .advBlock .container p {
+                font-size: 14px;
             }
 
             .advBlock .container button {
