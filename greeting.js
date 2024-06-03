@@ -50,6 +50,7 @@
             .advBlock .container button {
                 max-width: 210px;
                 margin: auto;
+                margin-top: 10px;
                 background-color: white !important;
                 color: #323232 !important;
             }
