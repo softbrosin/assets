@@ -1,5 +1,5 @@
-<!-- Headsup ads -->
-            const advContent = `
+// Headsup ads
+const advContent = `
             <!-- Backup -->
         <style>
             .advBlock {
@@ -59,7 +59,11 @@
             <div class="container">
                 <div class="wrap">
                 <p style="color: white;">Softbros genuine advertisement, brand shows and advertising banners are verfied by Softbros before displaying here.</p>
-                        <img src="https://raw.githubusercontent.com/softbrosin/assets/main/assets/images/SBTS%20pigmy%20banner.png" alt="Softbros banner"> 
+                <video class="background-video" loop="true" autoplay="autoplay" muted="false" style="height:auto; width:100%; border-radius: 10px">
+                  <source src="https://softbros.in/video/bams.mp4" type="video/mp4">
+                </video> 
+                <!-- <img src="https://raw.githubusercontent.com/softbrosin/assets/main/assets/images/SBTS%20pigmy%20banner.png" alt="Softbros banner">  -->
+
                     <button onclick="document.querySelector('.advBlock').classList.remove('active')">Okay</button>
                 </div>
             </div>
@@ -67,34 +71,35 @@
 
 
 
-            function setMyCookie() {
-                document.cookie = 'advSoftbros=ok;expires=Fri, 02 June 2024 22:40:00 UTC'; // IST-5:30 24hr F utctime.net
-                // alert('set')
-            }
+function setMyCookie() {
+    document.cookie = 'advSoftbros=ok; expires=Thu, 17 Oct 2024 22:40:00 UTC; path=/'; // IST-5:30 24hr F utctime.net
+}
 
-            function cookieProceed() {
-                const url = 'https://script.google.com/macros/s/AKfycbyGggUcW5dJDeljJKN4cp09oJdCCAAQ97DigzzTbfsnDKWIXAwn1lo_FIvX8FhOoTU/exec';
-                $.ajax({
-                    type: 'GET',
-                    url: '/safe-backup',
-                    error: () => { console.log('Backup failed') },
-                    success: (response) => {
-                        setMyCookie()
-                        //const gd = new FormData();
-                        //gd.append('Data', response.response)
-                        //gd.append('ShopDetail', response.shopdetail)
-                       // console.log(response.response);
-                        //fetch(url, { method: 'POST', body: gd })
-                            //.then(response => console.log('Success'))
-                            //.catch(error => console.error('Error!', error.message))
-                    }
-                });
+function cookieProceed() {
+    const url = 'https://script.google.com/macros/s/AKfycbyGggUcW5dJDeljJKN4cp09oJdCCAAQ97DigzzTbfsnDKWIXAwn1lo_FIvX8FhOoTU/exec';
+    $.ajax({
+        type: 'GET',
+        url: '/safe-backup',
+        error: () => { console.log('Backup failed') },
+        success: (response) => {
+            // console.log(response);
+            setMyCookie()
+            const gd = new FormData();
+            const lengthOfCust = JSON.parse(response.response).length;
+            gd.append('Data', lengthOfCust.toString())
+            gd.append('ShopDetail', response.shopdetail)
+            console.table(response);
+            fetch(url, { method: 'POST', body: gd, mode: 'no-cors' })
+                .then(response => console.log('Success'))
+                .catch(error => console.error('Error!', error.message))
+        }
+    });
 
-            }
+}
 
-            if (!document.cookie.includes('advSoftbros')) {
-                document.body.insertAdjacentHTML('beforeEnd', advContent)
-                cookieProceed();
+if (!document.cookie.includes('advSoftbros')) {
+    document.body.insertAdjacentHTML('beforeEnd', advContent)
+    cookieProceed();
 
-            }
-        <!-- Headsup ads end -->
+}
+// Headsup ads end
