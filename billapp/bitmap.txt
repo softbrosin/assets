@@ -1,0 +1,7 @@
+def changeInvoicePaymentMode(request):
+    cmode = request.POST['cmode']
+    invid = request.POST['invid']
+    bObj = Buy.objects.get(invoice=invid)
+    bObj.payment_mode = cmode
+    bObj.save(update_fields=['payment_mode'])
+    return JsonResponse({'pm':cmode})
