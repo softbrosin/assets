@@ -16,8 +16,6 @@
             <h1>Service Temporarily Blocked</h1>
             <p>No renewal has been made for this service.</p>
             <p>Please contact support or renew your subscription.</p>
-
-            <button onclick="contactSupport()">Contact Support</button>
         </div>
     `;
 
